@@ -1,0 +1,15 @@
+.home-info {
+	position:fixed;
+	top:40%;
+	left:50%;
+	width:40em;
+    height:10em;
+    margin-top: -5em;
+    margin-left: -20em;
+    text-align:center;
+}
+
+h1, h3 {
+	font-family: Ubuntu, Helvetica, Arial, sans-serif;
+	color: #222222;
+}

@@ -1,0 +1,35 @@
+.navbar {
+	border-radius:0;
+}
+
+.left{
+	float:left !important;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#navbar {
+	position: absolute;
+	left:0;
+	right:0;
+	text-align: center;
+}
+
+.navbar-nav {
+	float: none;
+	display: inline-block;
+}
+
+#footer {
+   background: #101010; 
+   display: inline-block;
+   text-align:center;
+}
+
+a.link {
+	padding: 0.5em 1.33em;
+	font-size:0.8em;
+	line-height:5em;
+	text-align:center;
+}
