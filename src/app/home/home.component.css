@@ -3,8 +3,7 @@
 	top:40%;
 	left:50%;
 	width:40em;
-    height:10em;
-    margin-top: -5em;
+	min-width:20em;
     margin-left: -20em;
     text-align:center;
     background: rgba(255, 255, 255, 0.4);

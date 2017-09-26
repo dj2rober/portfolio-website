@@ -17,13 +17,13 @@
 
 .card {
 	width: 22.5%;
-	min-width: 15em;
+	min-width: 10em;
 	height: 10em;
 	display: inline-block;
 	border-radius: 5px;
 	background: rgba(215, 215, 215, 0.6);
-	margin: 10px 15px;
-	padding: 10px 20px;
+	margin: 0.5% 1%;
+	padding: 10px 10px;
 	vertical-align: top;
 	overflow-y: scroll;
 }

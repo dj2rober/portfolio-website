@@ -1,3 +1,4 @@
-<div class='centered'>
-	<h2>Projects coming soon.</h2>
+<div *ngFor="let project of projects" class='project-card'>
+	<p class='project-title'>{{ project.title }}</p>
+	<p class='project-summary'>{{ project.summary }}</p>
 </div>

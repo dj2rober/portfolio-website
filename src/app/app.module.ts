@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { AboutService } from './about/about.service';
 import { CourseListComponent } from './courses/course_list.component';
 import { ProjectListComponent } from './projects/project_list.component'; 
+import { ProjectsService } from './projects/projects.service';
 import { ResumeComponent } from './resume/resume.component';
 import { routing } from './app.routes';
 
@@ -22,7 +23,8 @@ import { routing } from './app.routes';
   					CourseListComponent,
   					ProjectListComponent,
   					ResumeComponent ],
-  providers: 	[ AboutService ],
+  providers: 	[ AboutService,
+  					ProjectsService ],
   bootstrap:    [ NavComponent ]
 })
 export class AppModule { }
