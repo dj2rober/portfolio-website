@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {AboutService} from './about.service'
+import {Card} from './card'
 
 @Component({
 	selector: 'about',
@@ -8,14 +9,14 @@ import {AboutService} from './about.service'
 })
 
 export class AboutComponent{
-	cards: Object[];
+	cards:Card[] = new Array<Card>();
  
    constructor(private _AboutService : AboutService)
     {
     	this._AboutService.getCards()
             .subscribe(
             (res) => {
-                this.cards = res.cards;
+                this.cards = (Object.keys(res).map((key) => {return res[key]}))[0];
             },
             (error) => console.log("error : " + error)
         );
