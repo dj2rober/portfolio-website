@@ -1,0 +1,32 @@
+{
+	"cards":[
+			{
+				"title":"Co-op",
+				"info":"My co-op experiences have tended to revolve around web technologies and full-stack development. I hope to expand into AI, machine learning, biotechnologies in the future."
+			},
+			{
+				"title":"Exchange",
+				"info":"Completed an exchange to Danmarks Tekniske Universitet in May."
+			},
+			{
+				"title":"Engineering Society Executive",
+				"info":"I am the current VP Communications of the Engineering Society and manage a commissioner and five groups of directors."
+			},
+			{
+				"title":"Provincial and National Representation",
+				"info":"I am currently a voting member on the Engineering Student Societies' of Ontario (ESSCO), and the Canadian Federation of Engineering Students (CFES)."
+			},
+			{
+				"title":"Travel",
+				"info":"I love travel, and I've managed to visit 15 beautiful countries and many cities."
+			},
+			{
+				"title":"Orientation Week",
+				"info":"I have been an orientation week leader since my second year as a Big, Huge, and Edcom."
+			},
+			{
+				"title":"Interest",
+				"info":"I enjoy board games, rock climbing, learning new languages, and hanging with friends in our student lounge POETS."
+			} 
+	]
+}
