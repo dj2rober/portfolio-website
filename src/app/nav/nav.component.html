@@ -1,7 +1,6 @@
 <div class='fluid-container'>
     <nav class='navbar navbar-inverse bg-inverse'>
         <div class='navbar-header'>
-            <a (click)="toggleMenu = false" class='navbar-brand left' routerLink='/'>DjR</a>
             <button type="button" 
                     class="navbar-toggle collapsed"
                     (click)="onToggleMenu()">
@@ -10,8 +9,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+            <a (click)="toggleMenu=false" class='navbar-brand left' routerLink='/'>DjR</a>
         </div>
-
         <div id="navbar" [class.toggleMenuStyle]="toggleMenu" class="navbar-collapse collapse">
             <div class="nav navbar-nav">
                 <a (click)="toggleMenu=false" class="navbar-brand" routerLink='/about'>About</a>
@@ -19,6 +18,9 @@
                 <a (click)="toggleMenu=false" class="navbar-brand" routerLink='/course-list'>Courses</a>
                 <a (click)="toggleMenu=false" class="navbar-brand" routerLink='/resume'>Resume</a>
             </div>
+        </div>
+        <div class="nav">
+            <a (click)="toggleMenu=false" class='navbar-brand left' routerLink='/'>DjR</a>
         </div>
     </nav>
     <router-outlet></router-outlet>

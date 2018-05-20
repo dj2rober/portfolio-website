@@ -1,5 +1,5 @@
 .home-info {
-	position:fixed;
+	position: fixed;
 	top:35%;
 	left:50%;
 	width:40em;
@@ -7,6 +7,8 @@
     margin-left: -20em;
     text-align:center;
     border-radius: 5px;
+    background: rgba(214, 214, 228, 0.6);
+    padding-bottom:0.3em;
 }
 
 #navbar {

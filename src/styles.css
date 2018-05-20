@@ -15,4 +15,9 @@ body:before {
     -ms-filter: blur(5px);
     filter: blur(5px);
     z-index: -9;
+    overflow: hidden;
+}
+
+.loader {
+    text-align: center;
 }
