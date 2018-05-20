@@ -6,6 +6,13 @@ import {Component} from '@angular/core';
 	styleUrls: ['app/nav/nav.component.css']
 })
 
-export class NavComponent{}
+export class NavComponent{
+	toggleMenu = false;
+
+	onToggleMenu() {
+		this.toggleMenu = !this.toggleMenu;
+		console.log(this.toggleMenu);
+	}
+}
 
 

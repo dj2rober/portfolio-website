@@ -2,7 +2,9 @@
 	<p class='width-card-text'>My name is Dan and I'm a developer and tech enthusiast.</p>
 </div>
 
-<div *ngFor="let card of cards" class='card'>
-	<p class='card-title'>{{ card.title }}</p>
-	<p class='card-info'>{{ card.info }}</p>
-</div>
+<section class='cards'>
+	<article class='card' *ngFor="let card of cards">
+		<p class='card-title'>{{ card.title }}</p>
+		<p class='card-info'>{{ card.info }}</p>
+	</article>
+</section>

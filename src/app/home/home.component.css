@@ -1,13 +1,32 @@
 .home-info {
 	position:fixed;
-	top:40%;
+	top:35%;
 	left:50%;
 	width:40em;
 	min-width:20em;
     margin-left: -20em;
     text-align:center;
-    background: rgba(255, 255, 255, 0.4);
     border-radius: 5px;
+}
+
+#navbar {
+	position: absolute;
+	left:0;
+	right:0;
+	text-align: center;
+}
+
+.navbar-nav {
+	float: none;
+	display: inline-block;
+}
+
+a.link {
+	padding: 0.5em 1.33em;
+	font-size:0.8em;
+	line-height:5em;
+	text-align:center;
+	color: #000000;
 }
 
 h1, h3 {

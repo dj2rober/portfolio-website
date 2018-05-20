@@ -2,23 +2,23 @@
 	"cards":[
 			{
 				"title":"Co-op",
-				"info":"My co-op experiences have tended to revolve around web technologies and full-stack development. I hope to expand into AI, machine learning, biotechnologies in the future."
+				"info":"My co-op experiences have tended to revolve around full-stack development, in a variety of industries, most recently the AdOps industry. I hope to expand into biotechnologies in the future."
 			},
 			{
 				"title":"Exchange",
-				"info":"Completed an exchange to Danmarks Tekniske Universitet in May."
+				"info":"Enjoyed an exchange to Danmarks Tekniske Universitet (DTU) from January 2017 - May 2018."
 			},
 			{
 				"title":"Engineering Society Executive",
-				"info":"I am the current VP Communications of the Engineering Society and manage a commissioner and five groups of directors."
+				"info":"I was VP Communications of the Waterloo Engineering Society managing a commissioner and five groups of directors from August 2016 - December 2017."
 			},
 			{
-				"title":"Provincial and National Representation",
-				"info":"I am currently a voting member on the Engineering Student Societies' Council of Ontario (ESSCO), and the Canadian Federation of Engineering Students (CFES)."
+				"title":"Provincial and National Advocacy",
+				"info":"I was previously a voting member on the Engineering Student Societies' Council of Ontario (ESSCO), and the Canadian Federation of Engineering Students (CFES)."
 			},
 			{
 				"title":"Travel",
-				"info":"I love travel, and I've managed to visit 15 beautiful countries and many cities."
+				"info":"I love to travel, and I've managed to visit 15 beautiful countries and many more cities."
 			},
 			{
 				"title":"Orientation Week",
@@ -26,7 +26,7 @@
 			},
 			{
 				"title":"Interests",
-				"info":"I enjoy board games, rock climbing, learning new languages, and hanging with friends in our student lounge POETS."
+				"info":"I enjoy board games, hiking, painting, learning new languages, and hanging with friends in our student lounge, POETS."
 			} 
 	]
 }

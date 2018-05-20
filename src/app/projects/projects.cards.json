@@ -1,19 +1,19 @@
 {
 	"projects":[
 			{
-				"title":"Document Annotation Feature",
-				"summary":"A feature developed for Microdea's app Synergize, made with AngularJS, TypeScript, and PaperJS.",
-				"info":"Synergize is part of a document management suite created by Microdea Inc. I had the opportunity to develop the front end aspect of the document annotation feature. Upon completion I refactored some of the code and worked with the software architect to integrate it with the backend. In addition to this, a convertor was created to maintain compatibility and switch between legacy XML annotation format, and the new JSON annotation format."
+				"title":"Advanced Lower-Limb Orthotics (ALO)",
+				"summary":"I model and prototype semi-active/active ankle foot orthotics.",
+				"info":"ALO is a lab group at the University of Waterloo. This group is focused on working with Orthopedic Bracing Solutions and KidsAbility to improve existing ankle foot orthotics (AFO), and potentially develop a new semi-active or active AFO. I utilize OpenSim to model AFOs, and I additionally prototype new AFOs."
 			},
 			{
-				"title":"Data Summaries & Visualization",
-				"summary":"At Validus I was responsible for creating a component to summarize and visualize client and industry data.",
-				"info":"The front end feature was developed with AngularJS and D3.js, while the backend aspect was Python using Flask and SQLAlchemy. In addition to this, a modeler could request an Excel file with the data, which would be created in the backend and emailed to them."
+				"title":"Fourth Year Design Project",
+				"summary":"My group and I are researching how to develop a method of concussion detection.",
+				"info":"This is a capstone project beginning May 2018, and ending with an exhibition in March 2019. My group and I are working with Professor James Tung to develop a fast and portable method of detecting concussions."
 			},
 			{
-				"title":"Heureka",
-				"summary":"My final project for a course on AI, used to explore heuristic search and logical deduction. Developed in Java.",
-				"info":"While in Denmark, I took an introduction course on AI. In this course we learned about logical deduction, heuristic searches, and logical agents. The first part of Heureka is utilizing a Breadth First Search A* algorithm with Euclidean heuristics for route finding. In the second part, an inference engine is created, using rules of formal logic. As this was a learning experience, input rules are limited to clauses in disjuntion form."
+				"title":"Null Pointer Analysis",
+				"summary":"A compiler was created, using LLVM and C++, to detect null pointers in various forms.",
+				"info":"Using C++ and the LLVM framework, a pass was developed to test various C code for null pointers. The C code tests included assignments, reassignments, if statements, and loops. Unfortunately, academic integrity prohibits the project from being hosted publicly."
 			},
 			{
 				"title":"Databases Project",
@@ -21,10 +21,19 @@
 				"info":"This project was meant to incorporate as many database design parts of the course as possible including: ER diagrams, RID diagrams, property tables, normalization to Third Normal Form, and complete implementation in MySQL. From the implementation, many queries (including various joins) and views were made. Users with varying access to tables and views were added as well. No implementation for the UI was needed for the project."
 			},
 			{
-				"title":"Null Pointer Analysis",
-				"summary":"A compiler was created, using LLVM and C++, to detect null pointers in various forms.",
-				"info":"Using C++ and the LLVM framework, a pass was developed to test various C code for null pointers. The C code tests included assignments, reassignments, if statements, and loops. Unfortunately, academic integrity prohibits the project from being hosted publicly."
+				"title":"Heureka",
+				"summary":"My final project for a course on AI, used to explore heuristic search and logical deduction. Developed in Java.",
+				"info":"While in Denmark, I took an introduction course on AI. In this course we learned about logical deduction, heuristic searches, and logical agents. The first part of Heureka is utilizing a Breadth First Search A* algorithm with Euclidean heuristics for route finding. In the second part, an inference engine is created, using rules of formal logic. As this was a learning experience, input rules are limited to clauses in disjuntion form."
+			},
+			{
+				"title":"Data Summaries & Visualization",
+				"summary":"At Validus I was responsible for creating a component to summarize and visualize client and industry data.",
+				"info":"The front end feature was developed with AngularJS and D3.js, while the backend aspect was Python using Flask and SQLAlchemy. In addition to this, a modeler could request an Excel file with the data, which would be created in the backend and emailed to them."
+			},
+			{
+				"title":"Document Annotation Feature",
+				"summary":"A feature developed for Microdea's app Synergize, made with AngularJS, TypeScript, and PaperJS.",
+				"info":"Synergize is part of a document management suite created by Microdea Inc. I had the opportunity to develop the front end aspect of the document annotation feature. Upon completion I refactored some of the code and worked with the software architect to integrate it with the backend. In addition to this, a convertor was created to maintain compatibility and switch between legacy XML annotation format, and the new JSON annotation format."
 			}
-
 	]
 }
